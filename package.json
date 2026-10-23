@@ -15,9 +15,12 @@
     "@tauri-apps/plugin-opener": "^2",
     "@types/node": "^26.6.5",
     "clsx": "^2.1.1",
+    "i18next": "^26.5.6",
+    "lucide-react": "^1.61.0",
     "radix-ui": "^1.8.1",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
+    "react-i18next": "^17.1.4",
     "roge-code": ".",
     "tailwindcss": "^4.3.3",
     "tw-merge": "^0.0.1-alpha.3"
