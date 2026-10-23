@@ -18,6 +18,7 @@
     "radix-ui": "^1.8.1",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
+    "roge-code": ".",
     "tailwindcss": "^4.3.3",
     "tw-merge": "^0.0.1-alpha.3"
   },
