@@ -1,0 +1,9 @@
+{
+  "title-menu": {},
+  "title-actions": {
+    "maximize": "Maximize",
+    "minimize": "Minimize",
+    "restore": "Restore",
+    "close": "Close"
+  }
+}
