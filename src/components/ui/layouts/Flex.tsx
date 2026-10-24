@@ -43,11 +43,12 @@ export default function Flex({
 }: FlexProps) {
   const Comp = as === "default" ? "div" : Slot.Root;
   const flex = inline ? "flex-inline" : "flex";
-  const flexReverse = [
+  const flexDirection = [
     "flex",
-    direction === "horizontal" ? "flex-row" : "flex-col",
-    reverse && "reverse",
+    direction === "horizontal" ? "row" : "col",
   ].join("-");
+
+  const flexReverse = reverse ? `${flexDirection}-reverse` : flexDirection;
 
   return (
     <Comp

@@ -5,7 +5,7 @@ import Searchbar from "./Searchbar";
 
 export default function Titlebar() {
   return (
-    <Box data-tauri-drag-region>
+    <Box data-tauri-drag-region className="title-bar">
       <Flex justifyContent="justify-between" alignItem="items-center">
         menu
         <Searchbar />

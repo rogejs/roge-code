@@ -1,1 +1,15 @@
 @import "tailwindcss";
+
+@layer components {
+    .separator-resize {
+        @apply border border-black hover:ring-2 transition-all duration-300;
+    }
+    .separator-vertical {
+        width: 1px;
+        height: 100%;
+    }
+    .separator-horizontal {
+        width: 100%;
+        height: 1px;
+    }
+}

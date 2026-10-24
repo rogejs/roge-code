@@ -21,6 +21,7 @@
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-i18next": "^17.1.4",
+    "react-resizable-panels": "^4.14.8",
     "roge-code": ".",
     "tailwindcss": "^4.3.3",
     "tw-merge": "^0.0.1-alpha.3"
